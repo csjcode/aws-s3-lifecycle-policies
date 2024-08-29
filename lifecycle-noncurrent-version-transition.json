@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "ID": "NoncurrentVersionTransition",
+      "Status": "Enabled",
+      "Filter": {},
+      "NoncurrentVersionTransitions": [
+        {
+          "NoncurrentDays": 60,
+          "StorageClass": "STANDARD_IA"
+        }
+      ]
+    }
+  ]
+}

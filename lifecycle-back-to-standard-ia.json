@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "ID": "TransitionBackToStandard",
+      "Status": "Enabled",
+      "Filter": {},
+      "Transitions": [
+        {
+          "Days": 7,
+          "StorageClass": "STANDARD_IA"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "Rules": [
+    {
+      "ID": "TransitionLargeFilesToGlacier",
+      "Status": "Enabled",
+      "Filter": {
+        "Tag": {
+          "Key": "large-file",
+          "Value": "true"
+        }
+      },
+      "Transitions": [
+        {
+          "Days": 90,
+          "StorageClass": "GLACIER"
+        }
+      ]
+    },
+    {
+      "ID": "TransitionVeryLargeFilesToDeepArchive",
+      "Status": "Enabled",
+      "Filter": {
+        "Tag": {
+          "Key": "very-large-file",
+          "Value": "true"
+        }
+      },
+      "Transitions": [
+        {
+          "Days": 180,
+          "StorageClass": "DEEP_ARCHIVE"
+        }
+      ]
+    }
+  ]
+}

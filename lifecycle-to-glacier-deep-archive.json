@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "ID": "TransitionToGlacierDeepArchive",
+      "Status": "Enabled",
+      "Filter": {},
+      "Transitions": [
+        {
+          "Days": 180,
+          "StorageClass": "DEEP_ARCHIVE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Rules": [
+    {
+      "ID": "ExpireObjects",
+      "Status": "Enabled",
+      "Filter": {},
+      "Expiration": {
+        "Days": 365
+      }
+    }
+  ]
+}

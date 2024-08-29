@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "ID": "NoncurrentVersionToGlacierDeepArchive",
+      "Status": "Enabled",
+      "Filter": {},
+      "NoncurrentVersionTransitions": [
+        {
+          "NoncurrentDays": 180,
+          "StorageClass": "DEEP_ARCHIVE"
+        }
+      ]
+    }
+  ]
+}

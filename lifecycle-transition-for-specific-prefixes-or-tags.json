@@ -1,0 +1,25 @@
+{
+  "Rules": [
+    {
+      "ID": "TransitionForSpecificPrefixesOrTags",
+      "Status": "Enabled",
+      "Filter": {
+        "And": {
+          "Prefix": "logs/",
+          "Tags": [
+            {
+              "Key": "archive",
+              "Value": "true"
+            }
+          ]
+        }
+      },
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "GLACIER"
+        }
+      ]
+    }
+  ]
+}

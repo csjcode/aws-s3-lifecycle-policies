@@ -1,0 +1,12 @@
+{
+  "Rules": [
+    {
+      "ID": "NonCurrentVersionRetentionPeriod",
+      "Status": "Enabled",
+      "Filter": {},
+      "NoncurrentVersionExpiration": {
+        "NoncurrentDays": 365
+      }
+    }
+  ]
+}

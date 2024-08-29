@@ -1,0 +1,15 @@
+{
+  "Rules": [
+    {
+      "ID": "TransitionToOneZoneIA",
+      "Status": "Enabled",
+      "Filter": {},
+      "Transitions": [
+        {
+          "Days": 30,
+          "StorageClass": "ONEZONE_IA"
+        }
+      ]
+    }
+  ]
+}

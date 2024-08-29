@@ -1,0 +1,12 @@
+{
+  "Rules": [
+    {
+      "ID": "DeleteMarkerCleanup",
+      "Status": "Enabled",
+      "Filter": {},
+      "Expiration": {
+        "ExpiredObjectDeleteMarker": true
+      }
+    }
+  ]
+}
